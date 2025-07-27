@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Solution {
     rotate(arr) {
         const last = arr.pop();
@@ -6,4 +7,14 @@ class Solution {
         
         
     }
+=======
+class Solution {
+    rotate(arr) {
+        const last = arr.pop();
+        arr.unshift(last)
+        
+        
+        
+    }
+>>>>>>> 74b999fc2a5fad862e33d1f84b552a61dfca672f
 }
